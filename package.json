@@ -4,7 +4,7 @@
     "description": "Playwright Awesome Tutorial",
     "main": "index.js",
     "scripts": {
-        "report": "npx playwright test --reporter=html && npx playwright show-report C:/Users/avinash/Documents/playwright-reports/${Date.now()}",
+        "report": "npx playwright test --reporter=html && npx playwright show-report",
         "debug": "npx playwright test --debug",
         "test": "npx playwright test first.test.ts",
         "test-us": "npx playwright test --update-snapshots",
