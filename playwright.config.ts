@@ -55,7 +55,7 @@ const config: PlaywrightTestConfig = {
     // grep: [new RegExp("@smoke"), new RegExp("@reg")],
     // testMatch: ["harDemo/trackRequest.test.ts"],
     retries: 0,
-    reporter: [['html', { outputFolder: 'C:\Users\avinash\Documents\playwright-reports/${Date.now()}' }], ['list']],
+    reporter: [['html', { outputFolder: 'C:/Users/avinash/Documents/playwright-reports/${Date.now()}' }], ['list']],
     // reporter: "./customReport/myReporter.ts"
   //  reporter: [
      //   ["dot"], // -> console
