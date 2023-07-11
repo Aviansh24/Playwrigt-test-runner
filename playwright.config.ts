@@ -55,14 +55,15 @@ const config: PlaywrightTestConfig = {
     // grep: [new RegExp("@smoke"), new RegExp("@reg")],
     // testMatch: ["harDemo/trackRequest.test.ts"],
     retries: 0,
+    reporter: [['html', { outputFolder: 'C:\Users\avinash\Documents\playwright-reports/${Date.now()}' }], ['list']],
     // reporter: "./customReport/myReporter.ts"
-    reporter: [
-        ["dot"], // -> console
-        ["json", { outputFile: "test-result.json" }], //  -> JSON
-        ['html', {
-            open: "always"
-        }] // -> HTML
-    ],
+  //  reporter: [
+     //   ["dot"], // -> console
+     //   ["json", { outputFile: "test-result.json" }], //  -> JSON
+     //  ['html', {
+     //       open: "always"
+    //    }] // -> HTML
+ //   ],
     // globalTeardown: './helper/globalsetup.ts'
 }
 export default config;
